@@ -1,0 +1,63 @@
+@chanset "utf-8";
+	* {margin: 0; box-sizing: border-box;}
+		ul,ol,li {list-style: none; margin: 0; padding: 0;}
+		a {text-decoration: none;}
+		header {width:100%; height:170px; background-color:#fff; margin:0 auto;}
+		#top {width:100%; height:30px; background-color:#f7f7f7; margin:0 auto;}
+		#top > .box {width: 1260px; height: 30px; margin: 0 auto; background-color:#f7f7f7;}
+
+		#login {width:100%; height:30px; background-color:#f7f7f7; margin: 0 auto;float: left;}
+		#login > .box1 {width: 420px; height:30px; background-color: #fff; float: left;}
+		#login > .box2 {width: 450px; height:30px; background-color: #fff;float:right ;}
+
+		#login > .box1 {background-color:#f7f7f7;}
+		#login > .box1 > ul {font-size: 12px; color:#bebebe; font-weight: bold;}
+		#login > .box1 > ul > li {float: left; padding: 7px 10px 0 5px;}
+		#login > .box1 > ul > li > a {text-decoration: none; color: #666;}
+		#login > .box1 > ul > li > a:hover {cursor: pointer; color: #8A4924;}
+		
+		#login > .box2 {background-color:#f7f7f7;}
+		#login > .box2 > ul {font-size: 12px; color:#bebebe; }
+		#login > .box2 > ul > li {float: left; padding: 7px 10px 0 16px;}
+		#login > .box2 > ul > li > a {text-decoration: none; color: #666;}
+
+		
+	
+		#bar {width:1260px; height:100px; background-color:#fff; margin:0 auto;}
+		#bar > .search {background-color:#fff;width: 350px; height: 35px; display: inline-block; border-radius: 30px; text-align: center; margin: 35px 150px;}
+		#bar > .search > .search_1 {width:350px; height:35px; background-color:#ececec; border-radius: 30px;padding:0 20px 0 0;}
+		#bar > .search > .search_1 > input {width: 300px; height: 35px; border:none; background-color:#ececec; float:left; border-radius: 30px;}
+		#bar > .search > .search_1 > button {width:25px; height:25px;float:right; margin:5px 0 5px 2px;border:none; cursor:pointer;}
+		
+		#bar > .search > .search_1 > button > img {width:20px; height:20px;padding:1px 0 0 0;}
+
+
+
+		#logo {width: 200px; height: 65px; background-color:#fff; float: left; padding: 13px 0 0 5px;}
+
+		#icon {width: 410px; height: 80px; background-color:#fff; float: right;}
+		#icon > .box {width: 65px; height: 50px; float: left; padding: 40px 0 0 0px;}
+
+
+
+
+		nav {width:100%; height:42px; background-color:#8A4924; margin:0 auto; }
+		nav > ul {width: 1260px; height: 42px; margin:0 auto;  background-color: #8A4924;}
+		nav > ul > li {font-size: 16px; float: left; font-weight: bold; padding: 0px 47px; text-align: center; line-height: 40px; }
+		nav > ul > li > a {color: white; }
+		nav > ul > li > a:hover {opacity: 0.7;} 
+		
+		
+
+		
+		footer {width:100%; height:190px; background-color:#fff; margin:0 auto; border-top: 1px solid gainsboro;}
+		#foo {width:1260px; height:190px; background-color:#fff; margin:0 auto;}
+		#foo > .box {width:1260px; height: 60px;background-color:#fff;}
+		#foo > .box > ul {font-size: 14px; margin: 0 auto; font-weight: bold;}
+		#foo > .box > ul > li {float: left; padding: 17px 6px; color:#C0C0C0;}
+		#foo > .box > ul > li > a {color:#666;}
+		
+		#logo2 {width:200px; height:130px; background-color:#fff; margin: 0 auto; float: left;}
+		#logo2 > a > img {width:120px; height: 35px; margin:20px 0 0 5px;}
+		#middle {width:850px; height:130px; background-color:#fff; margin: 0 auto;}
+		#middle > p {font-size: 12px; padding:25px 0 0 10px ; color: #666; line-height: 1.2;}

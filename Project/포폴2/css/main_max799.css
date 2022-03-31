@@ -1,0 +1,256 @@
+@charset "utf-8";
+@media (max-width: 799px) {
+	#slider {width: 100%; height: 970px; background-image: url(../img/slider1.jpg); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: flex-end; align-items: center;}
+	#slider > h1 {width: 90%; text-align: center; font-size: 35px; color: #fff; font-weight: lighter;}
+	#slider > p {width: 55%; font-size: 17px; color: #fff; font-weight: 300; margin: 40px 0 30px 0px; text-align: center; line-height: 28px;}
+	#slider > .btnbox1 {border: none; width:380px; margin: 0 0 0 10px;}
+	#slider > .btnbox1 > .btn_2 {width: 45%; background-color: #7c529c; border: 2px solid #7c529c; transition: 0.3s; border-radius: 50px; font-size: 14px; color: #fff; letter-spacing: 1px;  font-weight: 500; padding: 13px 0px; margin: 10px 10px 100px 5px; font-weight: bold;}
+	#slider > .btnbox1 > .btn_2:hover {background: none;}
+	#slider > .btnbox1 > .btn_3 {width: 45%; background-color: #fd226a; border: 2px solid #fd226a; transition: 0.3s; border-radius: 50px; font-size: 14px; color: #fff; letter-spacing: 1px;  font-weight: 500; padding: 13px 0px; margin: 10px 5px 100px 5px;  font-weight: bold;}
+	#slider > .btnbox1 > .btn_3:hover {background: none;}
+
+
+
+	#wrap {width: 100%; height: auto; margin: 0 auto; background-color:#070415; display: flex; flex-direction: column; align-items: center;}
+
+	#about {width: 100%; min-height: 645px; background-color: #070415;  position: relative; margin: 0 auto;}
+	#about .bigbox {width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: space-between; flex-direction: column;}
+	
+	#about .bigbox .abox1 {width:100%; height: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 0 0 0; margin-top: 20px;}
+	#about .bigbox .abox1 article {width: 80%; height: auto; border-radius: 15px; overflow: hidden;}
+	#about .bigbox .abox1 article img {border-radius: 15px;}
+	#about .bigbox .abox1 > article:first-of-type {margin: 0 0 20px 0px;}
+	#about .bigbox .abox1 > article:nth-of-type(2) {margin: 0 0 20px 80px;}
+	#about .bigbox .abox1 > article:last-of-type {margin: 0 80px 0 0;}
+
+	
+	#about .bigbox .abox2 {width: 100%; height: auto; display: flex; flex-direction: column; align-items: center; position: relative; margin-bottom: 50px;}
+	#about .bigbox .abox2 h2 {font-size: 120px; position: absolute; top: 80px; left: 0; z-index: 0; color:#13111f; line-height: 70px;}
+	#about .bigbox .abox2 .textbox {width: 85%; height: auto; margin: 140px 0 0 60px; z-index:1;} 
+	#about .bigbox .abox2 .textbox h4 {font-size: 24px; color: #fd226a; font-weight: lighter; z-index:2;}
+	#about .bigbox .abox2 .textbox h3 {font-size: 37px; color: #fff; font-weight: 400; margin: 10px 0 15px 0px;}
+	#about .bigbox .abox2 .textbox p {font-size: 16px; color: #fff; font-weight: 300; line-height: 28px;}
+	#about .bigbox .abox2 .textbox .btn_4 {width: 150px; font-size: 15px; color: #fff; font-weight: 500; letter-spacing: 1px; border-radius: 50px; border: 2px solid #7c529c; background: none; margin: 25px 0 0 0px; transition: 0.3s; padding: 13px 0px; font-weight: bold;}
+	#about .bigbox .abox2 .textbox .btn_4:hover {cursor: pointer; background-color:#7c529c;}
+
+
+
+
+
+
+	#count {width: 100%; height: auto; margin: 0 auto; background-color: #1a1e3b;}
+	#count > .cobox {width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column;justify-content: center; align-items: center;}
+	#count > .cobox > .cstbox1 {width:80%; height:auto; font-weight: bold; margin-top: 20px;}
+	#count > .cobox > .cstbox1 > h3 {font-size: 40px; color: #fff;}
+	#count > .cobox > .cstbox1 > h3 > span {color:#7c529c;}
+
+
+	#count > .cobox > .cstbox2 {width: 80%; margin: 30px 0 120px 0px;}
+	#count > .cobox > .cstbox2 > h1 {font-size: 70px; color: #fff; font-weight: 500; letter-spacing: 3px; line-height: 60px; font-weight: bold;}
+	#count > .cobox > .cstbox2 > h4 {font-size: 20px; color:#fd226a; line-height: 30px; margin: 20px 0px; font-weight: lighter; letter-spacing: 2px;}
+	
+
+
+
+	#yout {width: 100%; height: auto; background-color:#070415;}
+	#yout > .vidbox {width:90%; height:auto; margin: 0 auto;}
+	#yout > .vidbox > .vvbox {width: 100%; height: auto; margin: -120px 0 0 2px; border-radius: 20px;}
+	iframe {width: 100%; height: 600px;  border-radius: 20px;}
+
+
+
+	#what {width: 100%; height: auto; background-color:#070415; }
+	#what > .atbox {width: 100%; height: auto; background-image: url(../img/bg-sched.jpg); background-size: cover; background-position: center; margin: 100px 0 0 0px;}
+	#what > .atbox > .bigbox {width: 100%; height: 290px; background-color: transparent; position: relative; display: flex; flex-direction: column; align-items: center;}	
+	#what > .atbox > .bigbox > .inbox {width: 100%; height: auto; background-color: transparent; position: absolute;}
+	#what > .atbox > .bigbox > .inbox > h2 {text-align: center; font-size: 93px; line-height: 80px; color:#13111f; z-index: 0; top: 0; font-weight: bold; }
+
+	#what > .atbox > .bigbox > .inbox1 {width:80%; height: auto; margin: 0 auto; text-align: center; z-index: 1; background-color: transparent; position: absolute; margin: 60px 0 0 0px;}
+	#what > .atbox > .bigbox > .inbox1 > h4 {font-size: 25px; color: #fd226a; font-weight: lighter; z-index:2;}
+	#what > .atbox > .bigbox > .inbox1 > h3 {font-size: 35px; color: #fff; font-weight: 500; margin: 20px 0px; letter-spacing: -1px; font-weight: bold;}
+	#what > .atbox > .bigbox > .inbox1 > p {font-size: 15px; color: #fff; font-weight: 300; line-height: 28px;}
+
+	#what > .atbox .daybox {width:100%; height: auto; margin-top: 20px;}
+	#what > .atbox .daybox .mibox {width: 100%; height: 100px; display: flex;}
+
+
+	.daybox > .mibox > .mibox1 {width: 33%; height: 100%; border-bottom: 3px solid #fd226a; display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+	.daybox > .mibox > .mibox1 > h3 {color: #fff; font-size: 25px;}
+	.daybox > .mibox > .mibox1 > p {color: #7c529c; font-size: 17px;}
+
+	.daybox > .mibox > .mibox2 {width: 33%; height: 100%; border-bottom: 3px solid rgb(51, 49, 64); display: flex; flex-direction: column; justify-content: center; align-items: center;} 
+	.daybox > .mibox > .mibox2 > h3 {color: #fff; font-size: 25px;}
+	.daybox > .mibox > .mibox2 > p {color: #7c529c; font-size: 17px;}
+
+	table {width: 100%; height:auto; margin-top: 30px;}
+	table > tbody > tr {width: 100%; height: 200px;}
+	table > tbody > tr > th {width: 15%; padding: 5px 10px 0 0px; font-size: 20px; color: #fff; font-weight: 500; font-weight: bold;}
+	table > tbody > tr > td:first-of-type {width: 20%;}
+	table > tbody > tr > td:nth-of-type(2) {width: 55%; padding: 10px;}
+	table > tbody > tr > td:last-of-type {width: 10%;}
+
+	table > tbody > tr > td > img {width: 130px; height: auto; border-radius: 10px;}
+	table span {font-size: 18px; color: #fff; font-weight: 500; line-height: 40px;}
+	table p {font-size: 15px; color: #999; font-weight: 300; line-height: 28px;}
+	table button {font-size: 13px; padding: 12px 0px; width: 120px; color: #fff; font-weight: 500; letter-spacing: 1px; border-radius: 50px; background: none; border: 2px solid #7c529c; transition: 0.3s;}
+	table button:hover {cursor: pointer; background-color:#7c529c;}
+
+
+
+
+
+	#brand {width: 100%; height:250px; background-color:#070415; display: flex; justify-content: space-between; flex-flow: row wrap; margin: 50px 0px;}
+	#brand > .brandbox {width: calc(100% / 6); height:100%; display: flex; justify-content: center; align-items: center;}
+	#brand > .brandbox > img {width: 100%; height: 80%; transform: scale(1.0); transition: 0.3s;}
+	#brand > .brandbox > img:hover {transform: scale(1.1);}
+
+
+
+
+	#icon {width: 100%; height:250px; display: flex; flex-flow: row wrap; margin-bottom: 200px;}
+	#icon > .icbox {width: 33%; height: 100%; position: relative;}
+	#icon .icbox .img_box {width:100%; height:100%; position:absolute; top:0; left:0; background:linear-gradient(to bottom,rgba(124,82,156,0.9),rgba(253,34,106,0.9)); opacity:0; transition:all 0.5s; display:flex; justify-content:center; align-items:center;}
+	#icon .icbox .img_box:hover {opacity:1; transition:all 0.5s ease;}
+	.img_box .iconbox {width:50%; height:auto; display:flex; flex-flow:row nowrap; justify-content:space-evenly; align-items:center; flex-wrap: wrap;}
+	.iconbox img {width:45%; height:45px; border:2px solid #fff; padding:4px; border-radius:10px; transition:all 0.5s}
+	.iconbox img:hover {margin-bottom:20px; transition:all 0.5s}
+	#icon .i {width:100%; height:100%;}
+	
+	
+
+
+
+	#tickets {width:100%; height: auto; margin: 130px 0 0 0px;}
+	#tickets > .ticbox {width: 100%; height:200px; position: relative;}
+	#tickets > .ticbox > .tibox {width: 50%; height:100px; z-index: 0; position: absolute; top: 0; left: 0;}
+	#tickets > .ticbox > .tibox > h2 {font-size: 130px; line-height: 80px; color: #13111f;}
+
+	#tickets > .ticbox > .ckbox {width: 500px; height: 100px; position: absolute; z-index: 1; margin: 65px 0 0 30px;}
+	#tickets > .ticbox > .ckbox > h4 {font-size: 22px; font-weight: lighter; z-index: 2; color: #fd226a;}
+	#tickets > .ticbox > .ckbox > h3 {font-size: 40px; color: #fff; font-weight: 400; letter-spacing: -1px; font-weight: bold;}
+
+
+
+	#tickets > .ketsbox {width: 100%; height: auto; display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+	#tickets > .ketsbox > .tkbox {width: 40%; height: 480px; background-color: #0f111c; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 15px; margin-bottom: 50px;}
+
+	#tickets > .ketsbox > .tkbox > .topbox {width: 100%; height: 170px; background-color: #363844; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; border-top-left-radius: 15px; border-top-right-radius: 15px;} 
+	.topbox > .shape {width: 50px; height: 50px; background-color:#070415; border-radius: 50%; position: absolute; top: -25px; left: 50%; margin-left:-25px; }
+	.topbox > h3 {font-size: 40px; color: #fff; letter-spacing: -1px; font-weight: 500; margin: 5px 0px;}
+	.topbox > h3:hover {cursor: pointer; color:#fd226a;}
+	.topbox > h4 {font-size: 18px; color: #fd226a; font-weight:lighter;}
+	.ketsbox > .tkbox > .topbox > .tier {width: 100px; height: 40px; background-color: #0f111c; border: 1px solid #363844; color: #fff; border-radius: 50px; position: absolute; bottom: -20px; left: 50%; margin-left: -50px; padding: 8px 0px; text-align: center;}
+
+	#tickets > .ketsbox > .tkbox > .topbox1 {width: 100%; height: 170px; background-color: #7c529c; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; border-top-left-radius: 15px; border-top-right-radius: 15px;} 
+	.topbox1 > .shape1 {width: 50px; height: 50px; background-color:#070415; border-radius: 50%; position: absolute; top: -25px; left: 50%; margin-left:-25px; }
+	.topbox1 > h3 {font-size: 40px; color: #fff; letter-spacing: -1px; font-weight: 500; margin: 5px 0px;}
+	.topbox1 > h3:hover {cursor: pointer; color:#fd226a;}
+	.topbox1 > h4 {font-size: 18px; color: #fd226a; font-weight:lighter;}
+	.ketsbox > .tkbox > .topbox1 > .tier1 {width: 100px; height: 40px; background-color: #0f111c; border: 1px solid #7c529c; color: #fff; border-radius: 50px; position: absolute; bottom: -20px; left: 50%; margin-left: -50px; padding: 8px 0px; text-align: center;}
+
+
+	#tickets > .ketsbox > .tkbox > .bottombox {width:100%; height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; background-color: #0f111c; border-bottom-left-radius: 15px; border-bottom-right-radius:15px;} 
+	.bottombox > ul > li {font-size: 16px; color: #fff; text-align: center; font-weight: lighter; margin: 15px 0px;}
+	.bottombox > .bt {font-size: 13px; color: #fff; background: none; border: 1px solid #fd226a; padding: 12px 25px; border-radius: 50px; margin-bottom: 20px; transition: 0.3s;}
+	.bottombox > .bt:hover {cursor: pointer; background-color:#fd226a;}
+
+
+
+
+	#guests {width: 100%; height: auto; background-color:#13111f; margin-top: 50px;}
+	#guests > .gtextbox {width: 100%; height: 300px; margin: 0 auto; position: relative; display: flex; flex-direction: column; align-items: center;}
+	#guests > .gtextbox > .back {width: 100%; height: 100px; margin: 0 auto; position: absolute; display: flex; justify-content: center; align-items: center;}
+	#guests > .gtextbox > .back > h2 {font-size: 130px; line-height: 20px; color:#070415; z-index: 0; top: 0; font-weight: bold; letter-spacing: 3px; margin: 80px 0 0 0px;}
+	#guests > .gtextbox > .upbox {width: 100%; height: 190px;  margin: 0 auto; position: absolute; margin: 100px 0 0 0px; text-align: center; z-index: 1; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+	#guests > .gtextbox > .upbox > h4 {font-size: 22px; color: #fd226a; font-weight: lighter; z-index:2;}
+	#guests > .gtextbox > .upbox > h3 {font-size: 40px; color: #fff; font-weight: 500; margin: 10px 0px; letter-spacing: -1px; font-weight: bold;}
+	#guests > .gtextbox > .upbox > p {font-size: 17px; color: #fff; font-weight: 300; line-height: 28px; width: 500px; text-align: center;}
+
+
+
+
+	#guests > .gustbox {width: 100%; height: auto; display: flex; justify-content: space-evenly; flex-flow: row wrap; margin:30px 0 70px 0px;}
+	#guests > .gustbox > .gubox1 {width: 45%; height: 100%; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	#guests > .gustbox > .gubox1:hover {cursor: pointer; background-color:#070415;}
+	.gubox1 > .ggbox {width: 220px; height: 220px; position: relative; background-position: center; background-size: cover; border-radius: 50%; margin: 20px 0px; background-image: url(../img/g1.jpg);}
+	.gubox1 > .ggbox > .sns {width: 180px; height: 50px; position: absolute; border-radius: 50px; bottom: 0; left: 50%; margin-left: -90px; display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center; background-color:#070415;} 
+	.gubox1 > .ggbox > .sns > img {width: 16px; height: 16px; transition:all 0.5s}
+	.gubox1 > .ggbox > .sns > img:hover {cursor: pointer; margin-bottom:20px; transition:all 0.5s ease;}
+	.gustbox > .gubox1 > h3 {font-size: 25px; color: #fff; margin: 10px 0px; font-weight: 500; letter-spacing: -1px;}
+	.gustbox > .gubox1 > h4 {font-size: 16px; color: #fd226a; margin-bottom: 30px; font-weight:lighter;}
+
+
+
+	#guests > .gustbox > .gubox2 {width: 45%; height: 100%; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	#guests > .gustbox > .gubox2:hover {cursor: pointer; background-color:#070415;}
+	.gubox2 > .ggbox {width: 220px; height: 220px; position: relative; background-position: center; background-size: cover; border-radius: 50%; margin: 20px 0px; background-image: url(../img/g2.png);}
+	.gubox2 > .ggbox > .sns {width: 180px; height: 50px; position: absolute; border-radius: 50px; bottom: 0; left: 50%; margin-left: -90px; display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center; background-color:#070415;} 
+	.gubox2 > .ggbox > .sns > img {width: 16px; height: 16px; transition:all 0.5s}
+	.gubox2 > .ggbox > .sns > img:hover {cursor: pointer; margin-bottom:20px; transition:all 0.5s ease;}
+	.gustbox > .gubox2 > h3 {font-size: 25px; color: #fff; margin: 10px 0px; font-weight: 500; letter-spacing: -1px;}
+	.gustbox > .gubox2 > h4 {font-size: 16px; color: #fd226a; margin-bottom: 30px; font-weight:lighter;}
+
+
+
+	#guests > .gustbox > .gubox3 {width: 45%; height: 100%; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	#guests > .gustbox > .gubox3:hover {cursor: pointer; background-color:#070415;}
+	.gubox3 > .ggbox {width: 220px; height: 220px; position: relative; background-position: center; background-size: cover; border-radius: 50%; margin: 20px 0px; background-image: url(../img/g3.jpg);}
+	.gubox3 > .ggbox > .sns {width: 180px; height: 50px; position: absolute; border-radius: 50px; bottom: 0; left: 50%; margin-left: -90px; display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center; background-color:#070415;} 
+	.gubox3 > .ggbox > .sns > img {width: 16px; height: 16px; transition:all 0.5s}
+	.gubox3 > .ggbox > .sns > img:hover {cursor: pointer; margin-bottom:20px; transition:all 0.5s ease;}
+	.gustbox > .gubox3 > h3 {font-size: 25px; color: #fff; margin: 10px 0px; font-weight: 500; letter-spacing: -1px;}
+	.gustbox > .gubox3 > h4 {font-size: 16px; color: #fd226a; margin-bottom: 30px; font-weight:lighter;}
+
+
+
+	#guests > .gustbox > .gubox4 {width: 45%; height: 100%; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	#guests > .gustbox > .gubox4:hover {cursor: pointer; background-color:#070415;}
+	.gubox4 > .ggbox {width: 220px; height: 220px; position: relative; background-position: center; background-size: cover; border-radius: 50%; margin: 20px 0px; background-image: url(../img/g4.png);}
+	.gubox4 > .ggbox > .sns {width: 180px; height: 50px; position: absolute; border-radius: 50px; bottom: 0; left: 50%; margin-left: -90px; display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center; background-color:#070415;} 
+	.gubox4 > .ggbox > .sns > img {width: 16px; height: 16px; transition:all 0.5s}
+	.gubox4 > .ggbox > .sns > img:hover {cursor: pointer; margin-bottom:20px; transition:all 0.5s ease;}
+	.gustbox > .gubox4 > h3 {font-size: 25px; color: #fff; margin: 10px 0px; font-weight: 500; letter-spacing: -1px; font-weight: bold;}
+	.gustbox > .gubox4 > h4 {font-size: 16px; color: #fd226a; margin-bottom: 30px; font-weight:lighter;}
+
+
+
+
+
+	#today {width: 100%; height: 265px; background-image: url(../img/bg-count2.jpg); background-size: cover; background-position: center; display: flex; flex-flow: row wrap; justify-content: center;}
+	#today > .day {width: 25%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+	#today > .day > .toto {font-size: 50px; font-weight: 500; color: #fff;}
+	#today > .day > h4 {font-size: 15px; letter-spacing: 0.5px; margin-top: 10px; font-weight: lighter; color: #fff;}
+
+
+
+
+
+
+	#news {width: 100%; height:auto; margin-top: 60px; position: relative;}
+	#news > .nebox {width: 100%; height: 170px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	#news > .nebox > .ntextbox1 {width: 365px; height: 100px; z-index: 0; position: absolute;}
+	#news > .nebox > .ntextbox1 > h2 {font-size: 130px; line-height: 80px; color: #13111f;}
+
+	#news > .nebox > .ntextbox2 {width: 299px; height: 100px; position: absolute; z-index: 1;  margin: 110px 0 0 0px; text-align: center;}
+	#news > .nebox > .ntextbox2 > h4 {font-size: 22px; font-weight: lighter; z-index: 2; color: #fd226a;}
+	#news > .nebox > .ntextbox2 > h3 {font-size: 40px; color: #fff; font-weight: 500; letter-spacing: -1px; font-weight: bold; margin-top: 20px;}
+
+
+
+
+	#news .newbox {width: 100%; height: auto; margin-top: 80px; display: flex; justify-content: space-evenly; flex-flow: row wrap;}
+	#news .newbox > .nnbox {width: 365px; height: 420px; background-color:#13111f; display: flex; flex-direction: column; justify-content: space-between; border-radius: 15px; margin-bottom: 50px;}
+	#news .newbox > .nnbox > .nnimbox {width:365px; height:231px;} 
+	#news .newbox > .nnbox > .nnimbox > img {width: 100%; height: 231px; border-top-left-radius: 15px; border-top-right-radius: 15px; opacity: 1; transition: 0.3s;}
+	#news .newbox > .nnbox > .nnimbox > img:hover {cursor: pointer; opacity: 0.5;}
+
+	#news .newbox > .nnbox > .nntxbox {width:100%; height:40%; background-color:#13111f; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding: 20px 30px; position: relative; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; overflow: hidden;} 
+	#news .newbox > .nnbox > .nntxbox > h4 {font-size: 18px; color:#fd226a; margin-bottom: 10px; font-weight: lighter;}
+	#news .newbox > .nnbox > .nntxbox > p {font-size: 23px; color:#fff; font-weight: 400; line-height: 35px;}
+	#news .newbox > .nnbox > .nntxbox > .bbtn {background-color: #7c529c; border-radius: 50px; border: none; width: 90px; height: 40px; position: absolute; bottom: 25px; right: -20px; display: flex; justify-content: flex-start; align-items: center; padding-left: 20px;}
+	#news .newbox > .nnbox > .nntxbox > .bbtn > img {width: 30px; height: 25px; transition: 0.3s;}
+	#news .newbox > .nnbox > .nntxbox > .bbtn > img:hover {cursor: pointer; margin-left: 10px; transition:all 0.3s ease;}
+
+
+
+}

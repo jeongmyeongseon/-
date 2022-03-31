@@ -1,0 +1,73 @@
+@charset "utf-8";
+@media (max-width: 799px) {
+	#wrap {width: 100%; height: auto;}
+
+	/*************** header **************/
+	header {width: 100%; height: auto; background-color: #293d31; margin: 0 auto; position: relative;}
+	.logo {width: 100%; background-color:#fe8340; display:flex; align-items:center; justify-content: space-between;}
+	.logo > .lobox {width: 40%; height: 100px; text-align: left;}
+	.logo > .lobox > h1 {font-size: 20px; padding: 22px 0 0 3px; color:#293d31;}
+	.logo > .lobox > p {font-size: 15px; padding: 0 0 0 4px; color:#293d31 ;}
+	.logo .a {cursor:pointer;}
+    .logo img {width:30px; height:30px;}
+
+
+
+	/*************** nav **************/
+	nav {width: 100%; background-color: #293d31;}
+	nav > .nbox {width: 100%; margin: 0 auto; display: none;}
+	nav > .nbox > img {padding: 0 2px 0 0px;} 
+	nav > .nbox > p {font-size: 15px; color: #fe8340; padding: 5px 10px 0 0px;}
+
+	nav > ul {margin: 0 30px 0 0px; width: 100%;}
+	nav > ul > li > a {font-size: 19px; padding: 10px 5px; color: #fff;  z-index: 3;display: block;}
+	nav > ul > li > a:hover {cursor: pointer; color: #293d31; background-color:#fe8340; opacity: 0.7;}
+
+	.a {display:block;}
+    .b {display:block; position: absolute; top: 100px; z-index: 50;}
+
+	.logo2 {width: 150px; display: none;}
+	.logo2 > img {width: 100%; height: 110px;}
+
+
+
+
+	/*************** footer **************/
+	footer {width: 100%; height: 400px; background-color: #293d31; margin: 0 auto;}
+	footer #footerbox {max-width: 1250px; height: auto;margin: 0 auto;}
+	footer #footerbox > .ibox {width: 70%; height: 140px; margin: 0 auto;}
+	footer #footerbox > .ibox > img {width: 23%; height: auto; margin: 20px 0 0 0px;}
+
+
+	#inbox {width: 100%; height: 130px; margin: 0 auto; }
+
+	#inbox > .box2 {width: 80%; height: 50px; float: left; margin: 0 0 0 40px; text-align: center; }
+	#inbox > .box2 > span {font-size: 17px; color: #fff;}
+
+
+
+	#inbox > .search {width: 100%; height: 35px; display: inline-block; text-align: center; display: flex; justify-content: flex-end;}
+	#inbox > .search > .search_1 {width:80%; height:50px; margin-right:35px;}
+
+	#inbox > .search > .search_1 > input {width: 70%; height: 46px; border:1px solid #fff; background-color: #293d31; }
+
+	#inbox > .search > .search_1 > button {width: 20%; height:46px; border:none; cursor:pointer; font-size: 21px; }
+	#inbox > .search > .search_1 > button:hover {background-color: #fe8340;}
+
+
+
+
+	footer #footerbox > .ftbox {width: 90%; height: 80px; margin: 0 auto; padding-left: 20px;}
+
+	footer #footerbox > .ftbox > .fbox {width: 32%; height: 35px; float: left;  margin: 1px 1px 0 0px; border-right: 1px solid #fe8340;}
+	footer #footerbox > .ftbox > .fbox1 {width: 32%; height: 35px; float: left;  margin: 1px 1px 0 0px; border-right: 1px solid #fe8340;}
+	footer #footerbox > .ftbox > .fbox2 {width: 32%; height: 35px; float: left;  margin: 1px 1px 0 0px;}
+
+	.fbox > h3 {font-size: 27px; color:#fe8340;}
+	.fbox1 > h3 {font-size: 27px; color:#fe8340; text-align: center;}
+	.fbox2 > h3 {font-size: 27px; color:#fe8340; text-align: right;}
+
+	.foo {width: 80%; height: 16px; margin: 0 auto; }
+	.foo > p {font-size: 12px; color:#fe8340; margin: 0 0 0 27px; }
+
+}

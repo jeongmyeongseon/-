@@ -1,0 +1,68 @@
+@charset "utf-8";
+@media (min-width: 800px) {
+	#wrap {width: 100%; height: auto;}
+
+		/*************** header **************/
+	header {width: 100%; height: auto; margin: 0 auto; background-color:#293d31;}	
+	#headerbox {max-width: 1250px; height: 110px; background-color: #293d31; margin: 0 auto; text-align: center; display: flex; justify-content: space-between;}
+	.logo {width: 30%; height: 110px; background-color:#fe8340; float: left;}
+	.logo > .lobox {width: 100%; height: 100px; text-align: left;}
+	.logo > .lobox > h1 {font-size: 28px; padding: 22px 0 0 17px; color:#293d31;}
+	.logo > .lobox > p {font-size: 16px; padding: 0 0 0 19px; color:#293d31 ;}
+	.logo img {display: none;}
+	/*************** nav **************/
+	nav {width: 55%; height: 110px; display: flex; flex-direction: row;align-items: center; justify-content: space-around; background-color: #293d31;}
+	nav > .nbox {width: 30%; margin: 0 auto; display: none}
+	nav > .nbox > img {padding: 0 2px 0 0px;} 
+	nav > .nbox > p {font-size: 15px; color:#fe8340; padding: 5px 10px 0 0px;}
+
+
+	nav > ul {display: flex; width: 100%; justify-content: flex-end;}
+	nav > ul > li > a {font-size: 13px; color: #fff; padding: 0 20px 0 0px;}
+	nav > ul > .li1 > a {color: #fe8340;}
+
+	nav > ul > li > a:hover {cursor: pointer; color: #fe8340;}
+
+	.logo2 {width: 15%; height: 110px;}
+	.logo2 > img {width: 100%; height: 110px;}
+
+
+
+
+	/*************** footer **************/
+	footer {width: 100%; background-color: #293d31; margin: 0 auto;}
+	.ibox {background-color: #293d31; width: 100%; height: 180px;}
+
+
+	#inbox {width: 100%; height: 130px; margin: 0 auto;}
+
+	#inbox > .box2 {width: 76%; height: 50px; margin: 0 0 0 150px; }
+	#inbox > .box2 > span {font-size: 21px; color: #fff;}
+	#inbox > .search {width: 100%; height: 35px; display: inline-block; text-align: center; display: flex; justify-content: center;}
+	#inbox > .search > .search_1 {width:85%;}
+
+	#inbox > .box2 {width: 600px; height: 50px; margin-left: 21.5%;}
+	#inbox > .box2 > span {font-size: 21px; color: #fff;}
+
+
+
+
+
+
+	#inbox > .search > .search_1 > input {width: 50%; height: 46px; border:1px solid #fff; background-color: #293d31; margin: 0 10px 0 0px;}
+
+	#inbox > .search > .search_1 > button {width: 15%; height:50px; border:none; cursor:pointer; font-size: 21px;}
+	#inbox > .search > .search_1 > button:hover {background-color: #fe8340;}
+
+
+
+	footer > .ftbox {width: 75%;  margin: 0 auto;}
+	footer > .ftbox > .fbox {width: 100%; margin: 1px 1px 0 0px; border-right: 1px solid #fe8340; }
+	.fbox {display: flex; justify-content: space-between; align-items: center;}
+	.fbox > h3 {font-size: 30px; color:#fe8340; margin-bottom: 20px;}
+
+	.foo {width: 40%; height: 16px; margin: 0 auto; padding-bottom: 3%;}
+	.foo > p {font-size: 12px; color:#fe8340; text-align: center;}
+
+
+}

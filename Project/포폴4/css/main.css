@@ -1,0 +1,109 @@
+﻿@chanset "utf-8";
+#slider {width:100%; height:600px; background-color:#fff; margin:0 auto; margin-top: 2px; display: flex; justify-content: center; align-items: center;}
+		#slider > .box {width: 1700px; height: 600px; background-color: rgb(236, 221, 221); position: absolute; z-index: 0;}
+		#slider > .box > a > img {width: 100%; height: 600px; margin: 0 auto; }
+
+		#slider > .textbox {width: 500px; z-index: 3; margin: 280px 300px 0 0px;}
+		#slider > .textbox > h3 {font-size: 32px; font-weight: 550; color: #8d4839; margin-bottom: 5%;}
+		#slider > .textbox > p {font-size: 20px; line-height: 30px; font-weight: 550; color: #8d4839;}
+		
+		section {width:100%; height:auto;  margin:0 auto;}
+
+		#prize {width:1260px; height:1020px; background-color:#fff; margin:0 auto;}
+		#prize > h3 {font-size:30px; text-align:center; font-weight: 100px;padding: 110px 0 55px 0px;}
+
+
+
+		#prize > .box {width:240px; height:350px; background-color:#fff; float: left; margin:10px 12px 15px 0px;}
+		#prize > .box > a > img {width: 100%; height:250px;}
+		#prize > .box > h5 {font-size: 13px; padding: 10px 0 5px 3px;}
+		#prize > .box > p {font-size: 14px; padding: 3px 0 0 3px;}
+		#prize > .box > a > img:hover {opacity: 0.5;}
+
+
+
+
+		#event {width:100%; height:500px; background-color:#EAEAEA; }
+		#event > .box1 {width:1260px; height:500px; background-color:#EAEAEA; margin:0 auto;}
+		#event > .box1 > h3 {font-size: 30px; text-align: center; font-weight: 100px; padding: 30px 0 30px 0px;}
+		#event > .box1 > .box2 {width:400px; height:350px; background-color:lightyellow; float: left; margin: 10px 20px 10px 0px;}
+		#event > .box1 > .box2 > a > img {width:100%; height:350px;}
+
+
+
+
+
+		#best {width:1260px; height:930px; background-color:#fff; margin: 0 auto;}
+		#best > h3 {font-size: 30px; margin: 120px 0 50px 0px; text-align: center;}
+
+		#best > .box3 {width:240px; height:350px; background-color:#fff; float: left; margin:5px;}
+		#best > .box3 > a > img {width: 100%; height: 270px; padding:0 0 5px 0px;}
+		#best > .box3 > h5 {font-size: 13px; padding: 5px 0 2px 3px;}
+		#best > .box3 > p {font-size: 14px; padding:5px 0 0 3px;}
+
+		#best > ul {font-family: "맑은 고딕"; font-weight: bold; width: 100%; height: 60px;}
+		#best > ul > li {float: left; margin:0 20px 30px 0; width: 110px; height: 30px; background-color: #f7f7f7; border-radius: 25px; font-size: 12px; text-align: center; line-height: 30px;}
+		#best > ul > li:first-child {margin: 0 20px 0 310px; background-color: #8d4839; color:white;}
+		#best > ul > li:last-child {margin: 0 50px 0 0px;}
+		#best > ul > li:hover {background-color: #8d4839; color: #fff}
+		#best > ul > li:hover .besta {color: #fff; background-color: #8d4839;}
+		#best > ul > li > .besta {color: #666;}
+		#best > ul > li > a {color: #fff;}
+		#best > .box3 > a > img:hover {opacity: 0.5;}
+
+
+		#pick {width:1260px; height:600px; background-color:#fff; margin:0 auto; }
+		#pick > h3 {text-align:center; font-size: 30px; padding: 30px 0 20px 0px;}
+		#pick > .box > h5 {font-size: 20px; float: left; color:#404040; font-weight: bold; margin-top: 30px;}
+		#pick > .box > p {font-size: 15px; line-height: 1.5; float: left; color: #808080; padding: 15px 0 0 0px;}
+
+		#pick > .box  {width:615px; height:390px; background-color:#fff; float: left; margin: 30px 15px 30px 0px; border: 1px solid #EAEAEA; box-shadow:4px 4px 4px #eee;}
+		#pick > .box > a > img {width: 100%; height: 270px;}
+
+
+		#md {width:1260px; height:900px; background-color:#fff; margin:0 auto;}
+		#md > .box4 {width:240px; height:350px; background-color:#fff; float: left; margin:5px;}
+
+		#md > h3 {font-size: 30px; margin: 30px 0 45px 0px; text-align: center;}
+		#md > ul {font-family: "맑은 고딕"; font-weight: bold; width: 100%; height: 60px;}
+		#md > ul > li {float: left; margin:0 20px 30px 0; width: 110px; height: 30px; background-color:#f7f7f7; border-radius: 25px; font-size: 12px; text-align: center; line-height: 30px;}
+		#md > ul > li:first-child {margin: 0 15px 0 310px; background-color: #8d4839; color:white;}
+		#md > ul > li:last-child {margin: 0 50px 0 0px;}
+		#md > ul > li:hover {background-color:#8d4839; color: #fff;}
+		#md > ul > li:hover .besta {color: #fff; background-color: #8d4839;}
+		#md > ul > li > .besta {color: #666;}
+		#md > ul > li > a {color: #fff;}
+		
+		
+		#md > .box4 > a > img {width: 100%; height: 270px; padding:0 0 5px 0px;}
+		#md > .box4 > h3 {font-size: 8px;}
+		#md > .box4 > h5 {font-size: 13px; padding: 5px 0 0 2px;}
+		#md > .box4 > p {font-size: 14px; padding:5px 0 0 2px;}
+		#md > .box4 > a > img:hover {opacity: 0.5;}
+
+
+
+		#say {width:100%; height:150px; background-color:yellow; margin:0 auto;}
+		#say > a > img {width: 100%; height: 150px;}
+
+
+		#inst {width: 1260px; height: 500px; background-color:#fff; margin:0 auto;}
+		#inst > h3 {font-size: 30px; text-align: center; padding: 100px 0 0 0px;}
+		#inst > .box {width: 208px; height: 180px; float: left; margin:60px 1px 0 1px; background-color: #fff;}
+		#inst > .box > a > img {width: 100%; height: 180px;}
+		#inst > .box > a > img:hover {opacity: 0.7;}
+
+
+		#st {width: 1260px; height: 200px; background-color:#fff; margin:0 auto;}
+		#st > ul {font-size: 15px; margin: 0 auto; font-weight: bold;}
+		#st > ul > li {float: left; padding: 15px 350px 0 0px;}
+
+		#st > .box1 {width: 370px; height: 130px; background-color: #ECECEC; float: left; margin: 15px 0 0 0px;}
+		#st > .box1 > .box_3 > a > img {width: 30px; height: 30px; margin: 35px 0 0 30px;}
+		#st > .box1 > .box_3 > h3 {font-size: 32px; float: right; margin: 25px 35px 0 0px;}
+		#st > .box1 > .box_3 > h5 {font-size:14px; float: right; margin: 2px 35px 0 0px;}
+		#st > .box1 > .box_3 > p {font-size: 14px; float: left; color:#606060; margin: 5px 0 0 84px;}
+		span {font-size: 12px; float: right; color:#606060;}
+		
+		#st > .box3 {width: 410px; height: 130px; background-color: gold; float: right; margin: 15px 0 0 0px;}
+		#st > .box3 > a > img {width: 100%; height: 130px;}

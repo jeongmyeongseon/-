@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/sub.css" rel="stylesheet">
+	
+</head>
+<body>
+	<header>
+		<div id="top">
+			<div class="box">
+				<div id="login">
+					<div class="box1">
+						<ul>
+							<li><a href="#">즐겨찾기</a></li>
+							<li><a href="#">출첵</a></li>
+							<li><a href="#">경기세계도자비엔날레</a></li>
+							<li><a href="#">Info&Community</a></li>
+						</ul>
+					</div>
+					<div class="box2">
+						<ul>
+							<li><a href="#">홈</a></li>
+							<li><a href="#">로그인</a></li>
+							<li><a href="#">회원가입</a></li>
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">고객센터</a></li>
+							<li><a href="#">온라인 수출상담</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div id="bar">
+
+			<div id="logo"><a href="#"><img src="img/logo_1.png" alt="logo"></a></div>
+
+			<div class="search">
+				<div class="search_1">
+					<input type="text" name="search" value="">
+					<button><img src="img/search.png"></button>
+				</div>
+			</div>
+
+
+			<div id="icon">
+				<div class="box">
+					<a href="#"><img src="img/icon1.png" alt="1"></a>
+				</div>
+				
+				<div class="box">
+					<a href="#"><img src="img/icon2.png" alt="2"></a>
+				</div>
+
+				<div class="box">
+					<a href="#"><img src="img/icon3.png" alt="3"></a>
+				</div>
+
+				<div class="box">
+					<a href="#"><img src="img/icon4.png" alt="4"></a>
+				</div>
+
+				<div class="box">
+					<a href="#"><img src="img/icon5.png" alt="5"></a>
+				</div>
+			</div>
+
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">수출브랜드몰</a></li>
+				
+				<li><a href="#">리빙몰</a></li>
+				
+				<li><a href="#">갤러리몰</a></li>
+				
+				<li><a href="#">도자 재료몰</a></li>
+				
+				<li><a href="#">생생라이브쇼핑</a></li>
+				
+				<li><a href="#">기획전/이벤트</a></li>
+
+				<li><a href="#">홈페이지</a></li>
+			</ul>
+		</nav>		
+	</header>
+
+	<div id="sub">
+		<div id="submenu">
+			<ul>
+				<li><a href="#">홈 > 리빙몰(아티스트몰) > 주방용품 > 잔/컵/머그/다기/주전자</a></li>
+			</ul>
+		</div>
+
+
+		<div id="contents">
+			<div id="container">
+				<div id="big">
+					
+					<div class="item_info">
+						<img src="img/e1.jpg" alt="상품사진"id="cup">
+						<div>
+							<div id="context">
+								<div class="box_1">
+									<h5>입체화병 달항아리 (대)</h5>
+									<p>그림속 달항아리를 만나보세요 이런 "달항아리는 처음" 이실겁니다</p>
+									<a href="#">곽경태 (토루세라믹)</a>
+									<span>상품후기</span>
+									<img src="img/sp_icon_common_on.png">
+
+								</div>
+								<table class="table1">
+									<tbody id="t_top">
+										<tr>
+											<td>시중판매가격</td>
+											<td></td>
+										</tr>
+
+										<tr>
+											<td>할인가격</td>
+											<td>300,000원</td>
+										</tr>
+
+										<tr>
+											<td>배송료</td>
+											<td>4,000원(50,000원 이상 무료배송)</td>
+										</tr>
+									</tbody>
+
+									<tbody id="t_to">
+										<tr>
+											<td>색상</td>
+											<td>분청(반광의 아이보리)</td>
+										</tr>
+
+										<tr>
+											<td>사이즈</td>
+											<td>∅10cm(D)x 10cm(H)</td>
+										</tr>
+
+										<tr>
+											<td>무게</td>
+											<td>2500g</td>
+										</tr>
+
+
+									</tbody>
+
+									<tbody id="t_bottom">
+										<tr>
+											<td>수량</td>
+											<td>
+
+												<select name="select" id="select">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</td>
+										</tr>
+									</tbody>
+
+									<tbody id="t_bo">
+										<tr>
+											<td></td>
+											<td>총 상품금액:300,000원</td>
+										</tr>
+									</tbody>
+
+									<tr id="t_t">
+										<td colspan="2">
+											<button>찜하기</button>
+											<button>장바구니</button>
+											<button>바로구매</button>
+										</td>
+									</tr>
+
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="small">
+				<img src="img/e1.jpg" class="small">
+				<img src="img/e2.jpg" class="small">
+				<img src="img/e3.jpg" class="small">
+				<img src="img/e4.jpg" class="small">
+				<img src="img/e5.jpg" class="small">
+			</div>
+		</div>
+		<script>
+
+			var bigPic = document.querySelector("#cup"); 
+
+			var smallPics = document.querySelectorAll(".small"); 
+
+
+
+			for(var i = 0; i < smallPics.length; i++) {
+
+				smallPics[i].addEventListener("click", chagePic);  
+
+			}
+
+			function chagePic() {
+
+				var newPic = this.src; 
+
+				bigPic.setAttribute("src", newPic);  
+
+			} 
+
+		</script>
+
+
+	</div>
+</div>
+
+<div id="side">
+	<ul>
+		<li>제품정보</li>
+		<li><a href="#detail">관련상품</a></li>
+		<li><a href="#shipping">상품평</a></li>
+		<li><a href="#shipping">1:1문의</a></li>
+		<li><a href="#inquiry">교환/반품/AS</a></li>
+	</ul>
+
+	<div class="video_box">
+		<p align="middle"><iframe src="https://www.youtube.com/embed/JHUXdc8kLQ0?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		<h5>그림속 달항아리</h5>
+		<p>이런 달항아리는 처음이실겁니다</p>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/50.jpg" alt="1"></a>
+		<p>전통항아리 형태의 납작한 입체 화병들</p>
+	</div>
+
+	<div class="text_box">
+		<h1>TOROO CERAMICS </h1>
+		<h2>토루 세라믹의</h2>
+		<h3>시그니처 디자인</h3>
+		<h5>그림속 달이 살아 움직인다</h5>
+		<p>곽경태 도예가의 시그니처 디자인 입체 화병은 둥근 달항아리 형식에서 벗어나<br>그림속에서만 만나던달이 살아 움직이듯 생명력을 불어 넣었습니다<br>반입체 형태로 마치 그림속 달을 마주하는모습을 담았고<br>생생한 입체감의 조화로 풍성한 곡선을 만들어 독창적 달항아리의 진수를 선보입니다</p>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/67.png" alt="2"></a>
+		<p>풍만하고 아름다운 곡선</p>
+	</div>
+
+	<div class="text_box">
+		<h1>DETAIL CUT </h1>
+		<h6>상세하게 제품을 확인해 보세요.</h6>
+		<p>납작한 형태의 화병으로 좁은 공간도 효율적으로 활용 하실수 있습니다<br>현관, 거실, 침대 사이드 테이블 그 어느곳에 놓으셔도 좋습니다<br>마음과 복을 담아 사랑하는 분들께 선물하세요<br>그 어느자리에서도 충분히 아름다운 OBJ가 될것 입니다 </p>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/52.jpg" alt="3"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/53.jpg" alt="4"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/68.png" alt="5"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/55.jpg" alt="6"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/56.jpg" alt="7"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/57.jpg" alt="8"></a>
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/58.jpg" alt="9"></a>
+	</div>
+
+	<div class="text_box">
+		<h1>INFORMATION </h1>
+		<strong>브랜드 / 제조사 / 색상</strong>
+		<p>브랜드 / 제조 : 도예가 곽경태 세컨 브랜드 토루 세라믹<br>색상 : 반광의 분청(아이보리)</p>
+
+		<strong>소재</strong>
+		<p>도자기 <br> 캐스팅후 분청작업<br>※도자기의 특성상 철분(검은점)은 산발적으로 생깁니다</p>
+
+		<strong>사이즈</strong>
+		<p>가로 (길이) : 32cm / 세로 (높이 ) : 30cm / 폭 (깊이) : 15cm</p>
+
+		<strong>기타 안내</strong>
+		<p>※ 사이즈 측정은 재는 방법에 따라 0.5~1cm의 오차가 발생할 수 있습니다.<br>※ 매장 조명이나 모니터 해상도 등에 따라 색상 차이가 있을 수 있습니다.</p>
+
+	</div>
+
+	<div class="img_box">
+		<a href="#"><img src="img/시험성적.png" alt="10"></a>
+	</div>
+
+	<div class="text_box">
+		<br>
+		<br>
+		<strong><<구매 전 꼭 읽어주세요>></strong>
+		<p>▶유의사항<br>- 제품에서 보이는 검은 점은 흙 고유의 철 성분이므로 불량이 아닙니다.<br>- 도자기에서 보이는 붉은색 반점은 유약의 특성이므로 불량이 아닙니다.<br>- 핸드메이드 제품의 특성상 유약의 흐름 자국, 형태는 모두 다름으로 반품의 사유가 될 수 없습니다.<br>- 모니터의 설정에 따라 색상의 오차가 있을 수 있으므로 디테일컷과 사이즈 상세표를 확인하신 후 신중한 구매 부탁드립니다.</p>
+		<p>▶취급 및 관리법<br>- 높은 온도와 장시간의 오븐 사용은 제품에 손상을 줄 수 있습니다.<br>- 거친 수세미 사용은 제품을 손상 시킬 수 있습니다.<br>- 직화용 제품은 별도로 표시해 드립니다.</p>
+	</div>
+</div>
+
+
+<div id="detail_tablebox">                        
+
+      <h4>상품정보고시</h4>
+		<table>
+			<tr>
+				<th>작가/요장명</th>
+				<td>곽경태 (토루세라믹)</td>
+			</tr>
+
+			<tr>
+			<th>품명 및 모델명</th>
+				<td>입체화병 달항아리 (대)</td>
+			</tr>
+
+			<tr>
+			<th>제조사/수입자</th>
+				<td>곽경태 (토루세라믹)</td>
+			</tr>
+
+			<tr>
+			<th>제조국</th>
+				<td>한국</td>
+			</tr>
+
+			<tr>
+			<th>A/S 책임자와 전화번호</th>
+				<td>0316354955 / 송정금</td>
+			</tr>
+
+			<tr>
+			<th>교환/반품 주소</th>
+				<td>경기 이천시 신둔면 도자예술로6번길 172</td>
+			</tr>
+
+		</table>
+
+    </div>
+
+
+<div id="pot_1">
+	<ul>
+		<li><a href="#detail">제품정보</a></li>
+		<li><a href="#shipping">관련상품</a></li>
+		<li>상품평</li>
+		<li><a href="#shipping">1:1문의</a></li>
+		<li><a href="#inquiry">교환/반품/AS</a></li>
+	</ul>
+	
+	
+
+</div>
+
+<div id="pot_2">
+	<ul>
+		<li><a href="#detail">제품정보</a></li>
+		<li><a href="#shipping">관련상품</a></li>
+		<li><a href="#shipping">상품평</a></li>
+		<li>1:1문의</li>
+		<li><a href="#inquiry">교환/반품/AS</a></li>
+	</ul>
+</div>
+
+<div id="pot_3">
+	<ul>
+		<li><a href="#detail">제품정보</a></li>
+		<li><a href="#shipping">관련상품</a></li>
+		<li><a href="#shipping">상품평</a></li>
+		<li><a href="#shipping">1:1문의</a></li>
+		<li>교환/반품/AS</li>
+	</ul>
+	<h3>배송안내</h3>
+	<h4>배송 및 결제안내</h4>
+	<p>-5만 원 미만 주문 시 4,000원의 배송비가 부과됩니다.</p>
+	<p>- 무통장 결제 시 입금은 48시간 이내에 처리해 주셔야 하고 48시간 이내 입금 미확인 시 자동으로 주문 취소됩니다.</p>
+	<p>- 무통장 입금 시 반드시 구매자와 동일한 이름으로 입금해 주시기 바랍니다.</p>
+	<p>- 기본 배송은 2~5일 소요 됩니다. (제주도 및 산간백지 제외) 단, 핸드메이드의 특성상 재고가 없는 제품은 2주 정도의 시간이 필요합니다.</p>
+	<p>- 토요일, 일요일, 공휴일은 발송 소요 기간에 해당하지 않습니다.</p>
+	<p>- 고객님의 주소 및 전화번호 기재 오류로 반송되는 경우 재 발송비가 부과됩니다.</p>
+	<p>- 품절, 장기지연 등 기타 특별한 상황이 발생할 경우 고객님께 연락 드리며 부재 시 메시지로 안내해 드립니다.</p>
+
+	<h4>배송정책</h4>
+	<p>-구매자 사정으로 교환이나 환불을 할 경우 왕복 배송료 10,000원 구매자 부담 이며 상품에 이상이 있거나 잘못 배송이 된 경우에는 왕복 배송료를 저희 쇼핑몰이 부담합니다.</p>
+	<p>-도서지역(제주 등)을 제외하고는 전국 어느 곳이나 배송료가 같습니다.</p>
+	<p>-공휴일, 기타 휴무일에는 배송되지 않으며, 온라인 송금을 하신 경우에는 입금 확인 당일부터 배송기간에 포함됩니다.</p>
+	<p>-천재지변에 의한 기간은 배송기간에서 제외합니다.</p>
+	<p>-온라인결제로 결제를 하셨을 경우에는 입금확인 후 배송하며, 카드결제로 하신 경우에는 쇼핑몰에서 확인하는 대로 발송을 합니다.</p>
+
+	<h4>배송기간</h4>
+	<p>-배송은 결제 확인 후 1~3일이며, 배송조회에서 배송현황을 확인하실 수 있습니다.</p>
+	<p>-상품은 주문일로부터 1~3일 이내에 배달하는 것을 원칙적으로 하고 있으며, 도서지역은 3~4일정도 걸리며 발송유무는 주문조회를 통해서 확인하실 수 있습니다.</p>
+
+	<h3>반품/교환 안내</h3>
+	<h4>반품/교환 사유에 따른요청가능 기간</h4>
+	<p>-구매자 단순 변심은 상품 수령 후 7일 이내(구매자 반품 배송비 부담)</p>
+	<p>-표시/광고와 상이, 상품하자의 경우 상품 수령 후 3개월 이내 혹은 표시/광고와 다른 사실을 안 날로부터 30일 이내(판매자 반품 배송비 부담) 둘 중 하나 경과 시 반품/교환 불가</p>
+	<p>-교환은 제품에 이상이 있을 경우 같은 제품으로만 가능 합니다.</p>
+	<p>-수령 시 파손된 제품은 바로 연락 주셔야 같은 제품으로 교환 가능합니다.</p>
+	<p>-연락 없이 보내신 제품은 반송 처리 됩니다. 이점 양해 하시기 바랍니다.</p>
+	<p>-교환은 제품을 받으신 후 2일 이내에 꼭!! 게시판을 통해 연락 주시고 5일 이내에도착하도록 보내 주셔야 합니다.</p>
+    <p>-반송 시 제품이 파손되지 않도록 보내 드린 상자에 같은 포장 방법으로 보내 주시기 바랍니다.</p>
+
+	<h4>반품/교환 불가능 사유</h4>
+	<p>-반품요청기간이 지난 경우</p>
+	<p>-구매자의 책임 있는 사유로 상품 등이 멸실 또는 훼손된 경우 (단, 상품의 내용을 확인하기 위하여 포장 당을 훼손한 경우는 제외)</p>
+	<p>-구매자의 책임 있는 사유로 포장이 훼손되어 상품 가치가 현저히 상실된 경우</p>
+	<p>-구매자의 사용 또는 일부 소비에 의하여 상품의 가치가 현저히 감소된 경우</p>
+	<p>-시간의 경과에 의하여 재판매가 곤란할 정도로 상품 등의 가치가 현저히 감소된 경우</p>
+	<p>-고객의 요청사항에 맞춰 제작에 들어가는 맞춤제작상품의 경우(판매자에게 회복 불가능한 손해가 예상되고, 그러한 예정으로 청약 철회권 행사가 불가 하다는 사실을 서면 도의 받은 경우)</p>
+	<p>-복제가 가능한 상품 등의 포장을 훼손한 경우</p>
+	<br>
+
+</div>
+
+
+<footer>
+	<div id="foo">
+		<div class="box">
+			<ul>
+				<li><a href="#">회사소개</a></li>
+				<li>|</li>
+				<li><a href="#">이용약관</a></li>
+				<li>|</li>
+				<li><a href="#">개인정보취급방침</a></li>
+				<li>|</li>
+				<li><a href="#">제휴문의</a></li>
+				<li>|</li>
+				<li><a href="#">고객센터</a></li>
+			</ul>			
+		</div>
+
+
+		<div id="logo2">
+			<a href="#"><img src="img/logo2.png" alt="2"></a>
+		</div>
+		<div id="middle">
+			<p>상호: (재)한국도자재단|(17379) 경기도 이천시 경충대로 2697번길 263|대표자명 : 최연|TEL : 031-645-0623, 031-645-0624, 031-645-0625<br>사업자 등록번호 : 124-82-09905|통신판매업신고 : 제 2021-경기이천-0458호|개인정보보호 관리자 : 강정원 102@kocef.org<br><br>Copyright © 2011 by KOCEF. All right reserved.</p>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
